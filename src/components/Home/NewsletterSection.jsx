@@ -2,7 +2,7 @@ import React from "react";
 
 function NewsletterSection() {
   return (
-    <section className="py-16 bg-gradient-to-r from-orange-100 to-orange-50 relative overflow-hidden">
+    <section className="py-16 bg-gradient-to-r from-orange-300 to-orange-50 relative overflow-hidden">
       <div className="absolute top-0 left-0 w-40 opacity-20">
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSESnmxTgqWkvyGXgQI9ydi4E7PJMbZLVRICQ&s"
