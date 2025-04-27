@@ -12,6 +12,7 @@ module.exports = {
         background: '#f9fafb', // Light gray background
         text: '#111827',      // Dark text
       },
+      
     },
   },
   plugins: [],
