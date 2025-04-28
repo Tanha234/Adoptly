@@ -27,7 +27,7 @@ function Navbar() {
         <div className="hidden md:flex flex-1 justify-center space-x-8">
           <a href="/" className="text-slate-800 hover:text-gray-200 transition">Home</a>
           <a href="/about" className="text-slate-800 hover:text-gray-200 transition">About</a>
-          <a href="/adopt" className="text-slate-800  hover:text-gray-200 transition">Adopt</a>
+          <a href="/pets" className="text-slate-800  hover:text-gray-200 transition">Adopt</a>
           <a href="/contact" className="text-slate-800  hover:text-gray-200 transition">Contact</a>
         </div>
 

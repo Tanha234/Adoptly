@@ -36,7 +36,7 @@ const PetAdoptionPage = () => {
         </div>
       </section>
 
-      {/* Statistics Section */}
+      {/* Statistics Section
       <section
         className="bg-cover bg-center "
         style={{ backgroundImage: "url('https://img.freepik.com/free-vector/different-pets-concept_23-2148524392.jpg')" }}
@@ -61,13 +61,13 @@ const PetAdoptionPage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* More About Us Section */}
       <section className="py-20 bg-accent md:px-44 sm:px-0">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 px-6">
           <div>
-            <h2 className="text-2xl font-bold text-gray-800 mb-6">More About us</h2>
+            <h2 className="text-4xl font-bold text-gray-800 mb-6">More About us</h2>
             <p className="text-gray-600 mb-4">
               We offer quick & easy services for cats and dogs, accumsan felis id, fermentum purus. 
               Quisque vitae hendrerit elit.
