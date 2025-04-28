@@ -28,6 +28,22 @@ function Navbar() {
           <a href="/" className="text-slate-800 hover:text-gray-200 transition">Home</a>
           <a href="/about" className="text-slate-800 hover:text-gray-200 transition">About</a>
           <a href="/pets" className="text-slate-800  hover:text-gray-200 transition">Adopt</a>
+          <a href="/pets" className="text-slate-800  hover:text-gray-200 transition">Donation</a>
+          <a href="/pets" className="text-slate-800  hover:text-gray-200 transition">Blog</a>
+          <div className="relative group">
+  <a href="#" className="text-slate-800 hover:text-gray-200 transition inline-flex items-center">
+    Community
+    <svg className="ml-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+      <path d="M5.23 7.21a.75.75 0 011.06.02L10 11.584l3.71-4.354a.75.75 0 011.14.976l-4.25 5a.75.75 0 01-1.14 0l-4.25-5a.75.75 0 01.02-1.06z" />
+    </svg>
+  </a>
+  <div className="absolute hidden group-hover:block bg-white shadow-md mt-2 rounded-md">
+    <a href="/volunteer" className="block px-4 py-2 text-slate-700 hover:bg-gray-100">Volunteer</a>
+    <a href="/events" className="block px-4 py-2 text-slate-700 hover:bg-gray-100">Events</a>
+    
+  </div>
+</div>
+
           <a href="/contact" className="text-slate-800  hover:text-gray-200 transition">Contact</a>
         </div>
 

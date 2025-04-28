@@ -9,6 +9,7 @@ import Root from './Root';
 import About from './components/About/About';
 import Pets from './components/Pets/Pets';
 import PetDetails from './components/PetDetails/PetDetails';
+import ContactUs from './components/ContactUs/ConatctUs';
 
 
 const router = createBrowserRouter([
@@ -32,9 +33,15 @@ const router = createBrowserRouter([
         element: <Pets />,
       
       },
+      
       {
         path: "/pet/:id",
         element: <PetDetails />,
+      
+      },
+      {
+        path: "/contact",
+        element: <ContactUs />,
       
       },
       
