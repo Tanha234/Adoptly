@@ -3,7 +3,7 @@
     "id": 1,
     "type": "cat",
     "name": "Whiskers",
-    "age_group": "Adult",
+    "age_group": "Baby",
     "size": "Medium",
     "breed": "Siamese",
     "gender": "Male",
@@ -11,9 +11,10 @@
     "good_with": ["Kids", "Dogs"],
     "special_needs": "No",
     "house_trained": "Yes",
+    "vaccinated": "Yes",
     "adoption_fee": "$80",
     "description": "Playful and affectionate cat who loves cuddles.",
-    "image": "https://picsum.photos/seed/cat1/300/200"
+    "image": "https://i.pinimg.com/474x/f5/cb/57/f5cb5719b4fad10964d944918a55575e.jpg"
   },
   {
     "id": 2,
@@ -28,8 +29,9 @@
     "special_needs": "No",
     "house_trained": "No",
     "adoption_fee": "$150",
+    "vaccinated": "Yes",
     "description": "Friendly, loyal, and full of energy.",
-    "image": "https://picsum.photos/seed/dog1/300/200"
+    "image": "https://i.pinimg.com/474x/1c/61/09/1c61093a37bd08b58e21823330406572.jpg"
   },
   {
     "id": 3,
@@ -44,8 +46,9 @@
     "special_needs": "No",
     "house_trained": "Yes",
     "adoption_fee": "$40",
+    "vaccinated": "Yes",
     "description": "Loves to hop around the garden.",
-    "image": "https://picsum.photos/seed/rabbit1/300/200"
+    "image": "https://i.pinimg.com/474x/4e/fd/a5/4efda527cd61a2da0ffdbf11cd03917d.jpg"
   },
   {
     "id": 4,
@@ -60,8 +63,9 @@
     "special_needs": "No",
     "house_trained": "No",
     "adoption_fee": "$30",
+    "vaccinated": "Yes",
     "description": "Loves to sing and chirp melodies.",
-    "image": "https://picsum.photos/seed/bird1/300/200"
+    "image": "https://i.pinimg.com/474x/00/e6/25/00e625ae904c77a2be172afde1c04b6c.jpg"
   },
   {
     "id": 5,
@@ -76,8 +80,9 @@
     "special_needs": "No",
     "house_trained": "Yes",
     "adoption_fee": "$120",
+    "vaccinated": "Yes",
     "description": "Energetic dog that loves to run.",
-    "image": "https://picsum.photos/seed/dog2/300/200"
+    "image": "https://i.pinimg.com/474x/26/5f/fe/265ffec26c832679837e884bf99ce943.jpg"
   },
   {
     "id": 6,
@@ -87,13 +92,14 @@
     "size": "Small",
     "breed": "Bengal",
     "gender": "Female",
+    "vaccinated": "Yes",
     "color": "Spotted Brown",
     "good_with": ["Kids"],
     "special_needs": "No",
     "house_trained": "No",
     "adoption_fee": "$90",
     "description": "Energetic explorer, loves to climb.",
-    "image": "https://picsum.photos/seed/cat2/300/200"
+    "image": "https://i.pinimg.com/474x/14/f1/93/14f19348ec6fb9af42ec317620ec7384.jpg"
   },
   {
     "id": 7,
@@ -103,13 +109,14 @@
     "size": "Small",
     "breed": "Lionhead",
     "gender": "Female",
+    "vaccinated": "Yes",
     "color": "White",
     "good_with": ["Kids", "Dogs"],
     "special_needs": "Yes",
     "house_trained": "No",
     "adoption_fee": "$50",
     "description": "Fluffy ball of fun and mischief.",
-    "image": "https://picsum.photos/seed/rabbit2/300/200"
+    "image": "https://i.pinimg.com/474x/b7/ce/70/b7ce70ddca3ec69753160e9549cf98c9.jpg"
   },
   {
     "id": 8,
@@ -119,13 +126,14 @@
     "size": "Small",
     "breed": "Cockatiel",
     "gender": "Male",
+    "vaccinated": "Yes",
     "color": "Gray and Yellow",
     "good_with": ["Kids"],
     "special_needs": "No",
     "house_trained": "No",
     "adoption_fee": "$35",
     "description": "Affectionate bird with a crest.",
-    "image": "https://picsum.photos/seed/bird2/300/200"
+    "image": "https://i.pinimg.com/474x/87/61/61/876161572e4347f114a3bb8bd1d656ff.jpg"
   },
   {
     "id": 9,
@@ -138,10 +146,11 @@
     "color": "Black and Tan",
     "good_with": ["Kids"],
     "special_needs": "No",
+    "vaccinated": "Yes",
     "house_trained": "Yes",
     "adoption_fee": "$200",
     "description": "Protective and loyal.",
-    "image": "https://picsum.photos/seed/dog3/300/200"
+    "image": "https://i.pinimg.com/474x/d2/b4/48/d2b4483c12e1c438071603595e9e882a.jpg"
   },
   {
     "id": 10,
@@ -157,7 +166,8 @@
     "house_trained": "Yes",
     "adoption_fee": "$60",
     "description": "Gentle and calm senior cat.",
-    "image": "https://picsum.photos/seed/cat3/300/200"
+    "vaccinated": "Yes",
+    "image": "https://i.pinimg.com/474x/4a/73/d3/4a73d39983123d16812300c2f350c4eb.jpg"
   },
   {
     "id": 11,
@@ -172,8 +182,9 @@
     "special_needs": "No",
     "house_trained": "No",
     "adoption_fee": "$70",
+    "vaccinated": "Yes",
     "description": "Big cuddly bunny who loves treats.",
-    "image": "https://picsum.photos/seed/rabbit3/300/200"
+    "image": "https://i.pinimg.com/474x/41/0c/8f/410c8feb89997a23037cf80bb739bc68.jpg"
   },
   {
     "id": 12,
@@ -188,8 +199,9 @@
     "special_needs": "No",
     "house_trained": "No",
     "adoption_fee": "$100",
+    "vaccinated": "Yes",
     "description": "Bright, playful, and loves attention.",
-    "image": "https://picsum.photos/seed/bird3/300/200"
+    "image": "https://i.pinimg.com/474x/1d/81/64/1d8164e920576b4a3ee4d8b6f4a7cadd.jpg"
   },
   {
     "id": 13,
@@ -204,8 +216,9 @@
     "special_needs": "No",
     "house_trained": "Yes",
     "adoption_fee": "$130",
+    "vaccinated": "Yes",
     "description": "Curious and loves outdoor adventures.",
-    "image": "https://picsum.photos/seed/dog4/300/200"
+    "image": "https://i.pinimg.com/474x/0f/d2/74/0fd2742bd82b908c244993412ff9d0d3.jpg"
   },
   {
     "id": 14,
@@ -219,9 +232,10 @@
     "good_with": ["Dogs"],
     "special_needs": "No",
     "house_trained": "Yes",
+    "vaccinated": "Yes",
     "adoption_fee": "$110",
     "description": "Big, fluffy, and gentle giant.",
-    "image": "https://picsum.photos/seed/cat4/300/200"
+    "image": "https://i.pinimg.com/474x/77/c0/c3/77c0c34983744d94a363d68a312385b8.jpg"
   },
   {
     "id": 15,
@@ -235,9 +249,10 @@
     "good_with": ["Kids"],
     "special_needs": "No",
     "house_trained": "No",
+    "vaccinated": "Yes",
     "adoption_fee": "$45",
     "description": "Small, quick, and very curious.",
-    "image": "https://picsum.photos/seed/rabbit4/300/200"
+    "image": "https://i.pinimg.com/474x/eb/ec/be/ebecbec3631a2f040d7b56fa61597a1c.jpg"
   },
   {
     "id": 16,
@@ -253,7 +268,8 @@
     "house_trained": "No",
     "adoption_fee": "$55",
     "description": "Lively bird who loves company.",
-    "image": "https://picsum.photos/seed/bird4/300/200"
+    "image": "https://i.pinimg.com/474x/61/0b/51/610b51b90e159dbf23d9a795ea1ab531.jpg",
+    "vaccinated": "Yes"
   },
   {
     "id": 17,
@@ -269,7 +285,8 @@
     "house_trained": "No",
     "adoption_fee": "$250",
     "description": "Adorable and affectionate pup.",
-    "image": "https://picsum.photos/seed/dog5/300/200"
+    "image": "https://i.pinimg.com/474x/4a/e9/ef/4ae9efa41d72b0c5fe9f3bc948380047.jpg",
+    "vaccinated": "Yes"
   },
   {
     "id": 18,
@@ -285,7 +302,8 @@
     "house_trained": "Yes",
     "adoption_fee": "$200",
     "description": "Loves warmth and cozy spaces.",
-    "image": "https://picsum.photos/seed/cat5/300/200"
+    "image": "https://i.pinimg.com/474x/59/79/f3/5979f30810f51dbc57e77cf4bc1e4656.jpg",
+    "vaccinated": "No"
   },
   {
     "id": 19,
@@ -301,7 +319,8 @@
     "house_trained": "No",
     "adoption_fee": "$60",
     "description": "Softest fur you've ever felt.",
-    "image": "https://picsum.photos/seed/rabbit5/300/200"
+    "image": "https://i.pinimg.com/474x/30/40/19/304019cee3ab9f139b8c4a91ef4ddc55.jpg",
+    "vaccinated": "No"
   },
   {
     "id": 20,
@@ -314,9 +333,11 @@
     "color": "Green and Yellow",
     "good_with": ["Kids", "Cats"],
     "special_needs": "No",
-    "house_trained": "No",
+    "house_trained": "Yes",
     "adoption_fee": "$25",
     "description": "Tiny bird with a big voice.",
-    "image": "https://picsum.photos/seed/bird5/300/200"
+    "image": "https://i.pinimg.com/474x/0e/b4/4c/0eb44cb8b3f032d12bdbccd14b566701.jpg",
+    "vaccinated": "No"
+
   }
 ]

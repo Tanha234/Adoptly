@@ -8,6 +8,7 @@ import Home from './components/Home/Home';
 import Root from './Root';
 import About from './components/About/About';
 import Pets from './components/Pets/Pets';
+import PetDetails from './components/PetDetails/PetDetails';
 
 
 const router = createBrowserRouter([
@@ -31,6 +32,12 @@ const router = createBrowserRouter([
         element: <Pets />,
       
       },
+      {
+        path: "/pet/:id",
+        element: <PetDetails />,
+      
+      },
+      
     ],
   },
 ]);
