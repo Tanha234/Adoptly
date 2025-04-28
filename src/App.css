@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color:#edcebb!important;
+  background-color: #edcebb !important;
 }
 
 .logo {
@@ -40,4 +40,11 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* ------------------- */
+/* Add this for Swiper */
+/* ------------------- */
+.custom-swiper .swiper-pagination {
+  margin-top: 1.5rem; /* same as mt-6 in Tailwind */
 }
