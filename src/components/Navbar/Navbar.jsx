@@ -29,7 +29,7 @@ function Navbar() {
           <a href="/about" className="text-slate-800 hover:text-gray-200 transition">About</a>
           <a href="/pets" className="text-slate-800  hover:text-gray-200 transition">Adopt</a>
           <a href="/donation" className="text-slate-800  hover:text-gray-200 transition">Donation</a>
-          <a href="/pets" className="text-slate-800  hover:text-gray-200 transition">Blog</a>
+          <a href="/blogs" className="text-slate-800  hover:text-gray-200 transition">Blog</a>
           <div className="relative group">
   <a href="#" className="text-slate-800 hover:text-gray-200 transition inline-flex items-center">
     Community
