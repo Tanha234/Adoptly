@@ -37,12 +37,14 @@ function Navbar() {
       <path d="M5.23 7.21a.75.75 0 011.06.02L10 11.584l3.71-4.354a.75.75 0 011.14.976l-4.25 5a.75.75 0 01-1.14 0l-4.25-5a.75.75 0 01.02-1.06z" />
     </svg>
   </a>
-  <div className="absolute hidden group-hover:block bg-white shadow-md mt-2 rounded-md">
+
+  {/* Dropdown menu */}
+  <div className="absolute left-0 w-40 mt-1 bg-white shadow-md rounded-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-opacity duration-200 z-50">
     <a href="/volunteer" className="block px-4 py-2 text-slate-700 hover:bg-gray-100">Volunteer</a>
     <a href="/events" className="block px-4 py-2 text-slate-700 hover:bg-gray-100">Events</a>
-    
   </div>
 </div>
+
 
           <a href="/contact" className="text-slate-800  hover:text-gray-200 transition">Contact</a>
         </div>
