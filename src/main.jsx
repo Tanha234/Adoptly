@@ -14,6 +14,9 @@ import PetDonationForm from './components/PetDonation/PetDonation';
 import VolunteerSection from './components/Volunteer/Volunteer';
 import BlogCategories from './components/Blogs/Blogs';
 import AdoptionForm from './components/AdoptionForm/AdoptionForm';
+import AdoptionEvent from './components/Events/Events';
+import Login from './components/Login/Login';
+
 
 
 const router = createBrowserRouter([
@@ -67,6 +70,16 @@ const router = createBrowserRouter([
       {
         path: "/blogs",
         element: <BlogCategories />,
+      
+      },
+      {
+        path: "/events",
+        element: <AdoptionEvent/>,
+      
+      },
+      {
+        path: "/login",
+        element: <Login/>,
       
       },
      

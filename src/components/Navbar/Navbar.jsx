@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { FaUser, FaSignInAlt } from "react-icons/fa"; 
+import { Link } from 'react-router-dom';
 import logo from '../../images/logo.png';
 
 function Navbar() {
@@ -51,11 +52,11 @@ function Navbar() {
 
         {/* Right Side (Desktop) */}
         <div className="hidden md:flex items-center space-x-3">
-          <FaSignInAlt className="text-slate-700 text-2xl" />
-          <button className="text-slate-800  font-semibold">Login</button>
-          <FaUser className="text-slate-700  text-xl" />
-        </div>
-
+  <FaSignInAlt className="text-slate-700 text-2xl" />
+  <Link to="/login" className="text-slate-800 font-semibold">Login</Link>
+  <FaUser className="text-slate-700 text-xl" />
+  <Link to="/user" className="text-slate-800 font-semibold">User</Link>
+</div>
         {/* Mobile Menu Button */}
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-white focus:outline-none">
