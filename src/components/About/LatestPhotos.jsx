@@ -5,14 +5,16 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 const images = [
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKh3qKrgR_CU8jj5Qg5RJ0l9gBfWuSCuiHPw&s", 
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOl01S1f0XVMkjr__BTNITuWApnpOPAHYV1g&s",
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfJDgUBtC93TY9oa2qakX3peW7Lju-DRCrSw&s",
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaEz1umQ0lccKNYw_aIHzHmyMUa55zHuXug&s",
-  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLaEz1umQ0lccKNYw_aIHzHmyMUa55zHuXug&s", 
-  "https://images.unsplash.com/photo-1583337130417-3346a1be7dee",
-  "https://images.unsplash.com/photo-1574158622682-e40e69881006",
-  "https://images.unsplash.com/photo-1558788353-f76d92427f16"
+ "https://i.pinimg.com/474x/33/81/64/33816484466466a43d62ab2983fc30ba.jpg", // walking dogs
+  "https://i.pinimg.com/474x/86/0a/4b/860a4b103eb0f5b5764f8ee5311bdc61.jpg", // feeding cats
+  "https://i.pinimg.com/474x/33/57/3a/33573a08b266b18256d19bf8aaa9ae8c.jpg", // vet check
+  "https://i.pinimg.com/474x/0d/f2/63/0df2631ce524e03f06e3d464aa75cbfb.jpg", // adoption support
+  "https://i.pinimg.com/474x/c1/1d/5a/c11d5a907de7c07bffb096d50909f8a9.jpg", // playtime with dogs
+  "https://i.pinimg.com/474x/bd/df/e7/bddfe7da628ef34cdf789d2e6c1b8dff.jpg", // kennel cleaning
+  "https://i.pinimg.com/474x/f7/65/55/f76555034a7692e3b61923caec22c905.jpg", // outdoor dog walk
+  "https://i.pinimg.com/474x/c1/1d/5a/c11d5a907de7c07bffb096d50909f8a9.jpg", // reading to cats
+  "https://i.pinimg.com/474x/54/b0/c8/54b0c866b12965ee77a29d3e305c3a9d.jpg", // giving water
+  "https://i.pinimg.com/474x/ff/f1/b7/fff1b782953d5f14ed8485dd0e7819d7.jpg", // grooming a dog
 ];
 
 function LatestPhotos() {
