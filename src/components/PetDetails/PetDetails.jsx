@@ -58,9 +58,13 @@ export default function PetDetails() {
             <p><strong>Breed:</strong> {pet.breed}</p>
             <p><strong>Size:</strong> {pet.size}</p>
             <p className="text-sm italic mt-2">{pet.short_description || "Ready for a new home!"}</p>
-            <button className="mt-4 w-32 bg-red-500 text-white py-2 rounded hover:bg-red-600">
-              Adopt Now!
-            </button>
+            <Link
+  to={`/adopt/${pet.id}`}
+  className="mt-4 w-32 bg-red-500 text-white py-2 rounded text-center hover:bg-red-600"
+>
+  Adopt Now!
+</Link>
+
           </div>
         </div>
 
