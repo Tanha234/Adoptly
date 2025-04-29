@@ -55,7 +55,7 @@ export default function App() {
   const [pets, setPets] = useState([]);
 
   useEffect(() => {
-    fetch("../../../data.json")
+    fetch("/data.json")
       .then((response) => response.json())
       .then((data) => setPets(data))
       .catch((error) => console.error("Error fetching pets:", error));
