@@ -1,7 +1,6 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import './index.css';
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './components/Home/Home';
@@ -16,78 +15,67 @@ import BlogCategories from './components/Blogs/Blogs';
 import AdoptionForm from './components/AdoptionForm/AdoptionForm';
 import AdoptionEvent from './components/Events/Events';
 import Login from './components/Login/Login';
-
-
+import PrivateRoute from './components/Login/PrivateRoute';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
- 
     children: [
       {
         path: "/",
         element: <Home />,
-      
       },
       {
         path: "/about",
         element: <About />,
-      
       },
       {
         path: "/pets",
-        element: <Pets />,
-      
+        element: (
+          <PrivateRoute>
+            <Pets />
+          </PrivateRoute>
+        ),
       },
-      
       {
         path: "/pet/:id",
         element: <PetDetails />,
-      
       },
       {
         path: "/contact",
         element: <ContactUs />,
-      
       },
       {
         path: "/donation",
         element: <PetDonationForm />,
-      
       },
       {
         path: "/volunteer",
         element: <VolunteerSection />,
-      
       },
       {
         path: "/adopt/:id",
         element: <AdoptionForm />,
-      
       },
-      
       {
         path: "/blogs",
         element: <BlogCategories />,
-      
       },
       {
         path: "/events",
-        element: <AdoptionEvent/>,
-      
+        element: <AdoptionEvent />,
       },
       {
         path: "/login",
-        element: <Login/>,
-      
+        element: <Login />,
       },
-     
     ],
   },
 ]);
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>,
-)
+  </StrictMode>
+);
