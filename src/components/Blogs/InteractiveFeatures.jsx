@@ -50,7 +50,7 @@ const InteractiveFeatures = () => {
   };
 
   return (
-    <section className="py-16 px-6 bg-gray-50">
+    <section className="py-16 px-6 bg-accent">
       {/* FAQs Section with two columns */}
       <div className="max-w-6xl mx-auto text-center mb-16">
         <h2 className="text-3xl font-bold text-gray-700 mb-8">Frequently Asked Questions</h2>
@@ -102,7 +102,7 @@ const InteractiveFeatures = () => {
       </div>
 
       {/* Interactive Features Section */}
-      <div className="max-w-4xl mx-auto space-y-12">
+      <div className="max-w-7xl mx-auto space-y-12">
         {/* Comment Section */}
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <h3 className="text-2xl font-semibold text-gray-700 mb-4">Leave a Comment</h3>
@@ -116,40 +116,9 @@ const InteractiveFeatures = () => {
           </button>
         </div>
 
-        {/* Social Media Share Buttons */}
-        <div className="bg-white p-6 rounded-lg shadow-lg">
-          <h3 className="text-2xl font-semibold text-gray-700 mb-4">Share This Post</h3>
-          <div className="flex space-x-6">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-              <FaFacebook className="text-blue-600 text-3xl hover:text-blue-700" />
-            </a>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <FaTwitter className="text-blue-400 text-3xl hover:text-blue-500" />
-            </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-              <FaInstagram className="text-pink-600 text-3xl hover:text-pink-700" />
-            </a>
-          </div>
-        </div>
+    
 
-        {/* Newsletter Signup Box */}
-        <div className="bg-white p-6 rounded-lg shadow-lg">
-          <h3 className="text-2xl font-semibold text-gray-700 mb-4">Subscribe to Our Newsletter</h3>
-          <form className="flex">
-            <input
-              type="email"
-              className="w-full p-3 border rounded-l-lg"
-              placeholder="Enter your email"
-              required
-            />
-            <button
-              type="submit"
-              className="bg-orange-600 text-white py-3 px-6 rounded-r-lg hover:bg-orange-700"
-            >
-              Subscribe
-            </button>
-          </form>
-        </div>
+       
       </div>
     </section>
   );

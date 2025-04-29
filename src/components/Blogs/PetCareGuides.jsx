@@ -3,7 +3,7 @@ import { FaBone, FaHeartbeat, FaDog, FaPaw } from 'react-icons/fa'; // Icons for
 
 const PetCareGuides = () => {
   return (
-    <section className="py-16 px-6 bg-gray-50">
+    <section className="py-16 px-6 bg-accent">
       <h2 className="text-4xl font-bold text-center mb-12">Pet Care Guides</h2>
 
       {/* Grid Layout for Pet Care Topics */}
